@@ -35,6 +35,6 @@ class DonasiController extends Controller
 
         Donasi::create($request->all());
 
-        return redirect()->route('donasi.index')->with('message', 'Donasi berhasil dibuat.');
+        return redirect()->route('donasi.index')->with('message','Donasi berhasil dibuat.');
     }
 }

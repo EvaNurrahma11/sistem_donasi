@@ -12,7 +12,7 @@ class DaftarController extends Controller
         $daftars = Daftar::paginate(10); 
         $total = Daftar::count(); 
 
-        return view('daftar.index', compact('daftars', 'total'));
+        return view('daftar.index', compact('daftars','total'));
     }
 
     public function create()

@@ -10,6 +10,6 @@ class TentangKamiController extends Controller
     public function index()
     {
         $tentangkamis = TentangKami::all();
-        return view('tentangkami.index', compact('tentang_kamis'));
+        return view('tentangkami.index',compact('tentang_kamis'));
     }
 }
